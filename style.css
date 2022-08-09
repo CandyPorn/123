@@ -1,0 +1,167 @@
+@import url("https://fonts.googleapis.com/css2?family=Dela+Gothic+One&family=IBM+Plex+Mono:wght@500&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Dela+Gothic+One&family=IBM+Plex+Mono:wght@400&display=swap');
+body {
+  margin: 0 auto;
+  color: rgba(255, 255, 255, 1);
+}
+
+a {
+  all: unset;
+}
+
+li {
+  list-style-type: none;
+}
+
+/* * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  overflow-wrap: inherit;
+  -webkit-tap-highlight-color: transparent;
+  /* outline: red auto 1px;  */
+} */
+
+:active,
+:hover,
+:focus {
+  outline: 0;
+  outline-offset: 0;
+}
+
+html {
+  background-image: url(fon.svg);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.none {
+  display: flex;
+  margin: auto;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  align-items: center;
+  width: 1159px;
+  height: 362px;
+}
+
+.wrap {
+  margin: 0;
+  display: flex;
+  width: 1159px;
+  height: 195px;
+  text-align: justify;
+  outline: white auto 1px;
+  box-shadow: 0 0 37px 0 rgb(255, 255, 255);
+  border-radius: 30px;
+ 
+}
+
+h1 {
+  font-size: 62px;
+  font-weight: 400;
+  font-family: "Dela Gothic One", sans-serif;
+  line-height: 89.78px;
+  margin: auto;
+  text-align: center;
+
+}
+
+.block {
+  display: flex;
+  justify-content: center;
+  margin: auto;
+}
+p {
+  font-size: 32px;
+  font-family: "IBM Plex Mono", sans-serif;
+  font-weight: 500;
+
+}
+
+/* .logo{
+bottom: 0px;
+ right: 0px; 
+ position: fixed;
+}   */
+
+.bottom_block{
+  display: flex;
+  flex-direction: column;
+  bottom: 350px;
+  left: -140px; 
+  position: fixed;
+  transform: rotate(-90deg);
+
+}
+
+.big_text{
+  font-size: 22px;
+  font-weight: 400;
+  font-family: "Dela Gothic One", sans-serif;
+}
+
+.litlle_text{
+  font-size: 12px;
+  font-family: "IBM Plex Mono", sans-serif;
+  font-weight: 500;
+}
+
+
+@media (min-width:320px) {
+  .logo{
+    top: 0px;
+    right: 0px; 
+    position: fixed;
+   }  
+  } 
+
+@media (max-width:560px) {
+  .logo{
+    top: 0px;
+    right: 0px; 
+    position: fixed;
+   }  
+  }  
+
+  @media (min-width:1300px) {
+    .logo{
+      bottom: 0px;
+      right: 0px; 
+      position: fixed;
+     }  
+    } 
+  
+  @media (max-width:1400px) {
+    .logo{
+      bottom: 0px;
+      right: 0px; 
+      position: fixed;
+     }  
+    }  
+  /* @media (min-width: 320px) and (max-width: 560px) {
+    .logo{
+      top:0px;
+      right: 0px;
+      position:fixed;
+    }
+  } */
+
+
+
+
+  
